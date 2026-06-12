@@ -9,9 +9,17 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://vespa-heritage.vercel.app"),
   title: "Vespa Primavera Heritage — La Dolce Vita. Reborn.",
   description:
     "The 1968 Vespa 125 Primavera, taken apart bolt by bolt and reborn as a limited heritage series. Scroll to explore every component.",
+  openGraph: {
+    title: "Vespa Primavera Heritage",
+    description:
+      "A scroll-driven journey through the 1968 Vespa 125 Primavera — exploded, explored, reassembled.",
+    images: ["/sequence/vespa_0_exploded.webp"],
+    type: "website",
+  },
 };
 
 export default function RootLayout({

@@ -13,6 +13,12 @@ next-env.d.ts
 /.gstack/
 /.claude/
 
+# local source frames (only needed to regenerate public/sequence via `npm run frames`)
+/ezgif-6916fc1b9fff21ef-jpg/
+
+# vercel
+.vercel
+
 # debug
 npm-debug.log*
 yarn-debug.log*
