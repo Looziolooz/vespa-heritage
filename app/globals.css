@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* kept in sync with the current sequence frame by VespaScrollSequence */
+  --scene-bg: #4a4d50;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  background-color: var(--scene-bg);
+  transition: background-color 0.7s ease;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #4a4d50;
+}
+
+canvas {
+  display: block;
+}
