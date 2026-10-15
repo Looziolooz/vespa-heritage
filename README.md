@@ -1,5 +1,12 @@
 # Vespa Primavera Heritage
 
+<!-- looz-design-credit -->
+> Progettato e sviluppato da **[LOoz.design](https://looz.design/?utm_source=github&utm_medium=referral&utm_campaign=readme)**: siti web, gestionali e agenti AI per piccole attività.
+> *Designed and built by LOoz.design: websites, management tools and AI agents for small businesses.*
+>
+> **Demo online:** https://vespa-heritage.vercel.app/ · **Scheda del progetto · Case study:** https://looz.design/work/vespa-heritage
+<!-- /looz-design-credit -->
+
 High-end scrollytelling landing page for a fictional heritage edition of the
 1968 Vespa 125 Primavera.
 
